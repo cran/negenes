@@ -30,12 +30,12 @@ OBTAINING R/NEGENES
 INSTALLATION OF R AND R/NEGENES (Windows)
 
   1. The Windows version of R is distributed as a single file,
-     with a name something like rw1081.exe.  Install R by executing
+     with a name something like rw1091.exe.  Install R by executing
      this file.  We recommend installing R in "c:\R" rather than
      "c:\Program Files\R".  Why didn't Microsoft use "Programs" rather
      than "Program files"? 
 
-  2. To install R/negenes, download the file "negenes_0.98-4.zip" (or
+  2. To install R/negenes, download the file "negenes_0.98-5.zip" (or
      the equivalent) and then do one of the following:
 
      a. Start R.  Select (on the menu bar) "Packages" and then
@@ -84,13 +84,13 @@ INSTALLATION OF R/NEGENES (Unix)
      a. To install R/negenes in the standard location
         (/usr/local/lib/R/library), type 
 
-            R INSTALL negenes_*.tar.gz
+            R CMD INSTALL negenes_*.tar.gz
 
         You'll probably need to be superuser.
 
      b. To install the package locally, type 
 
-            R INSTALL --library=/home/auser/Rlibs negenes_*.tar.gz
+            R CMD INSTALL --library=/home/auser/Rlibs negenes_*.tar.gz
 
         (where "/home/auser/Rlibs" should be replaced with the
         appropriate directory).  

@@ -2,8 +2,8 @@
 # 
 # negenes.R
 #
-# copyright (c) 2002, Karl W Broman, Johns Hopkins University
-# last modified July, 2002
+# copyright (c) 2002-4, Karl W Broman, Johns Hopkins University
+# last modified June, 2004
 # first written June, 2002
 # Licensed under the GNU General Public License version 2 (June, 1991)
 #
@@ -107,7 +107,8 @@ function(n.sites, counts, n.sites2, counts2,
                logprob = as.double(rep(0,n.mcmc)),
                as.integer(return.output),
                as.integer(trace),
-               as.double(startp))
+               as.double(startp),
+               PACKAGE="negenes")
   
   logprob <- output$logprob
   tot.ess <- output$n.ess

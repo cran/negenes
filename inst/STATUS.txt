@@ -6,9 +6,16 @@ Licensed under the GNU General Public License version 2 (June, 1991)
 http://www.biostat.jhsph.edu/~kbroman/software/negenes.html
 ----------------------------------------------------------------------
 
+Version 0.98-5, 6/30/2004:
+
+  Slight revision to the negenes() function: added PACKAGE="negenes"
+  in the .C() call.
+
+
 Version 0.98-4, 2/2/2004:
 
   Fixed a tiny error in the documentation.
+
 
 Version 0.98-3, 8/10/2002:
 
