@@ -1,0 +1,6 @@
+Mtb80                   Number of insertion sites in each gene in M tb
+                        CDC1551
+negenes                 Estimate the number of essential genes in a
+                        genome
+sim.mutants             Simulate data for a random transposon
+                        mutagenesis experiment
