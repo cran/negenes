@@ -1,12 +1,16 @@
 
 Revision history for the R/negenes package
 ----------------------------------------------------------------------
-copyright (c) 2002, Karl W Broman, Johns Hopkins University
+copyright (c) 2002,2004, Karl W Broman, Johns Hopkins University
 Licensed under the GNU General Public License version 2 (June, 1991)
 http://www.biostat.jhsph.edu/~kbroman/software/negenes.html
 ----------------------------------------------------------------------
 
-Version 0.98, 8/10/2002:
+Version 0.98-4, 2/2/2004:
+
+  Fixed a tiny error in the documentation.
+
+Version 0.98-3, 8/10/2002:
 
   Revised the negenes function to return Rao-Blackwellized estimates
   of the probability that each gene is essential, and of the posterior

@@ -21,64 +21,56 @@ OBTAINING R/NEGENES
 
       http://www.biostat.jhsph.edu/~kbroman/software/negenes.html
 
-  Binaries are available for Windows and MacOS; source code is
-  available for Unix.
+  Copies of R/negenes will also be placed on CRAN
+  (cran.r-project.org), but the version at the above site will be
+  updated more frequently.  Binaries are available for Windows and
+  MacOS; source code is available for Unix.
 
 
 INSTALLATION OF R AND R/NEGENES (Windows)
 
   1. The Windows version of R is distributed as a single file,
-     SetupR.exe.  Install R by executing this file.  We recommend
-     installing R in "c:\R" rather than "c:\Program Files\R".  Why
-     didn't Microsoft use "Programs" rather than "Program files"?
+     with a name something like rw1081.exe.  Install R by executing
+     this file.  We recommend installing R in "c:\R" rather than
+     "c:\Program Files\R".  Why didn't Microsoft use "Programs" rather
+     than "Program files"? 
 
-  2. To install the R/negenes, you may do one of the following:
+  2. To install R/negenes, download the file "negenes_0.98-4.zip" (or
+     the equivalent) and then do one of the following:
 
      a. Start R.  Select (on the menu bar) "Packages" and then
-        "Install package from local zip file...".  File the file
-        "negenes.zip" on your hard drive, and click "Open."
+        "Install package from local zip file...".  Find the file
+        "negenes_0.98-4.zip" on your hard drive, and click "Open".
 
-     b. Unzip the "negenes.zip" file into the directory $RHOME\library
-        (where $RHOME is something like c:\R\rw1041).  Note that this
-        should create a directory $RHOME\library\negenes containing the R
-        source code and the compiled dll.
+     b. Unzip the "negenes_0.98-4.zip" file into the directory
+        $RHOME\library (where $RHOME is something like c:\R\rw1081).
+        Note that this should create a directory
+        $RHOME\library\negenes containing the R source code and the
+        compiled dll.
 
         Start R and type "link.html.help()" to get the help files for
         the negenes package added to the help indices.
 
 
-INSTALLATION OF R AND R/NEGENES (MacOS)
+INSTALLATION OF R AND R/NEGENES (MacOS version 10.2.x and above)
 
-  1. We recommend downloading the "Carbon" version of R.  It may be
-     somewhat slower, but it doesn't require the installation of
-     X-windows.  (At CRAN, download the version that is *not*
-     indicated "Darwin/X11".)
-
-     a. Download the file rm150.sit file (or the equivalent for the
-        most recent version of R).
-
-     b. Use Stuffit Exaander to expand the file, to create a folder
-        "rm150". 
-
-     c. Copy the folder that is created to your Applications folder.
-
-     d. Execute R by double clicking on the R icon within the "rm150"
-        folder. 
+  1. Download the file RAqua.dmg and double-click it to mount a
+     "drive" with a name something like "RAqua-1.8.1".  Follow the
+     instructions in the file "ReadMe.txt".
 
   2. To install R/negenes:
 
-     a. Download the file negenes_*.sit
+     a. Download either the compiled version of R/negenes for Mac OSX
+        or the source code.
 
-     b. Expand the file using Stuffit Expander, creating a folder
-       "negenes". 
+     b. Start R by double-clicking "StartR" in your Applications
+        folder. 
 
-     c. Copy the "negenes" folder to "rm150/library".
-
-     d. Open R and update the links to the help files by either:
-
-         i. Click (on the menu bar) Help -> Link Packages Help
-
-        ii. Type link.html.help()
+     c. From the menu bar, click Packages -> Install from local files
+        and then either "Binary package file" or "Source package file".
+        (To install from source, you may need additional compilers and
+        other tools installed.)  Then find the appropriate file on
+        your drive.
 
 
 INSTALLATION OF R/NEGENES (Unix)
@@ -101,7 +93,7 @@ INSTALLATION OF R/NEGENES (Unix)
             R INSTALL --library=/home/auser/Rlibs negenes_*.tar.gz
 
         (where "/home/auser/Rlibs" should be replaced with the
-        appropriate director).  
+        appropriate directory).  
 
         Create a file ~/.Renviron containing the line
 
@@ -113,28 +105,20 @@ INSTALLATION OF R/NEGENES (Unix)
 GETTING STARTED
 
   Once you start R, you'll need to type "library(negenes)" to load the
-  package.  You can create a file "~/.Rprofile" or "c:\.Rprofile"
-  containing R code to be run whenever you start R.  If you use the
-  R/negenes package regularly, you should place the line
-  "library(negenes)" in such a file.
+  package.  You can create a file "~/.Rprofile" (Unix or MacOS) or
+  "c:\.Rprofile" (Windows) containing R code to be run whenever you
+  start R.  If you use the R/negenes package regularly, you should
+  place the line "library(negenes)" in such a file.
 
-  Efficient use of the R/negenes package requires considerable
-  knowledge of the R language.  Learning R may require a formidable
-  investment of time, but it will definitely be worth the effort.
-  Numerous free documents on getting started with R are available on
-  CRAN (http://cran.r-project.org).  In additional, several books are
-  available on S/S-PLUS, which is very similar to R.  For example, see
-  WN Venables, BD Ripley (1999) Modern Applied Statistics with S-PLUS,
-  3rd edition. Springer.
+  To get started with R/negenes, you might first peruse the
+  documentation that is bundled with it.  Type help.start() to start
+  the html version of the R help pages.  Then click "Packages" ->
+  "negenes".
 
-  To get started with R/negenes, you might first peruse the documentation
-  that is bundled with it.  Type help.start() to start the html
-  version of the R help pages.  Then click "Packages" -> "negenes".  
-
-  In Windows, you may gain access to the help documents by clicking
-  "Help" in the menu bar and then "R language (html)".  Windows users
-  may wish to place the line "options(htmlhelp=TRUE)" in the
-  file "c:\.Rprofile".  
+  In Windows or MacOS, you may gain access to the help documents by
+  clicking "Help" in the menu bar and then "R language (html)".  If
+  you include "options(htmlhelp=TRUE)" in your .Rprofile file, use of
+  the html version of the help pages will be automatic.
 
 
 QUESTIONS/COMMENTS/CONCERNS

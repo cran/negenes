@@ -11,7 +11,7 @@
 
 \usage{
 negenes(n.sites, counts, n.sites2, counts2,
-        n.mcmc=5000, skip=49, burnin=200, 
+        n.mcmc=5000, skip=49, burnin=500, 
         startp=1, trace=TRUE,
         calc.prob=FALSE, return.output=FALSE)
 }
