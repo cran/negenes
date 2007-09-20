@@ -1,9 +1,9 @@
 
 Revision history for the R/negenes package
 ----------------------------------------------------------------------
-copyright (c) 2002,2004, Karl W Broman, Johns Hopkins University
+copyright (c) 2002,2004, Karl W Broman
 Licensed under the GNU General Public License version 2 (June, 1991)
-http://www.biostat.jhsph.edu/~kbroman/software/negenes.html
+http://www.biostat.wisc.edu/~kbroman/software/negenes.html
 ----------------------------------------------------------------------
 
 Version 0.98-5, 6/30/2004:

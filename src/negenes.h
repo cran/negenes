@@ -2,7 +2,7 @@
  * 
  * negenes.h
  *
- * copyright (c) 2002, Karl W Broman, Johns Hopkins University
+ * copyright (c) 2002, Karl W Broman
  * last modified August, 2002
  * first written June, 2002
  *

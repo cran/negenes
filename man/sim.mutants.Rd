@@ -43,11 +43,11 @@ sim.mutants(n.sites, essential, n.sites2, n.mutants)
   essential genes in a genome by random transposon mutagenesis.
   Technical Report MS02-20, Department of Biostatistics, Johns Hopkins
   University, Baltimore, MD.
-  \url{http://www.biostat.jhsph.edu/~kbroman/publications/ms0220.pdf}
+  \url{http://www.biostat.biostat.wisc.edu/~kbroman/publications/ms0220.pdf}
 
 }
 
-\author{Karl W Broman, \email{kbroman@jhsph.edu}}
+\author{Karl W Broman, \email{kbroman@biostat.wisc.edu}}
 
 \examples{
 \dontrun{data(Mtb80)
