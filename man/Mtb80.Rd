@@ -1,6 +1,5 @@
 \name{Mtb80}
 \alias{Mtb80}
-\non_function{}
 
 \title{Number of insertion sites in each gene in M tb CDC1551} 
 

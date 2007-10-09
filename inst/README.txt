@@ -35,14 +35,14 @@ INSTALLATION OF R AND R/NEGENES (Windows)
      "c:\Program Files\R".  Why didn't Microsoft use "Programs" rather
      than "Program files"? 
 
-  2. To install R/negenes, download the file "negenes_0.98-5.zip" (or
+  2. To install R/negenes, download the file "negenes_0.98-7.zip" (or
      the equivalent) and then do one of the following:
 
      a. Start R.  Select (on the menu bar) "Packages" and then
         "Install package from local zip file...".  Find the file
-        "negenes_0.98-4.zip" on your hard drive, and click "Open".
+        "negenes_0.98-7.zip" on your hard drive, and click "Open".
 
-     b. Unzip the "negenes_0.98-4.zip" file into the directory
+     b. Unzip the "negenes_0.98-7.zip" file into the directory
         $RHOME\library (where $RHOME is something like c:\R\rw1081).
         Note that this should create a directory
         $RHOME\library\negenes containing the R source code and the
