@@ -1,6 +1,6 @@
 Package: negenes
-Version: 0.98-8
-Date: 30 June 2009
+Version: 0.98-9
+Date: 20 Mar 2011
 Title: Estimating the number of essential genes in a genome
 Author: Karl W Broman <kbroman@biostat.wisc.edu>
 Maintainer: Karl W Broman <kbroman@biostat.wisc.edu>
@@ -9,6 +9,6 @@ Description: Estimating the number of essential genes in a genome on
         experiment, through the use of a Gibbs sampler.
 License: GPL (>= 2)
 URL: http://www.biostat.wisc.edu/~kbroman/software/negenes.html
-Packaged: 2009-06-30 15:22:48 UTC; kbroman
+Packaged: 2011-03-21 01:09:26 UTC; kbroman
 Repository: CRAN
-Date/Publication: 2009-07-01 12:03:35
+Date/Publication: 2011-03-21 06:47:19

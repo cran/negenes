@@ -30,47 +30,43 @@ OBTAINING R/NEGENES
 INSTALLATION OF R AND R/NEGENES (Windows)
 
   1. The Windows version of R is distributed as a single file,
-     with a name something like R-2.4.0-win32.exe.  Install R by executing
+     with a name something like R-2.12.1-win32.exe.  Install R by executing
      this file.  We recommend installing R in "c:\R" rather than
      "c:\Program Files\R".  Why didn't Microsoft use "Programs" rather
      than "Program files"? 
 
-  2. To install R/negenes, download the file "negenes_0.98-7.zip" (or
-     the equivalent) and then do one of the following:
+ 2. To install R/qtl, the simplest approach is to start R and type
 
-     a. Start R.  Select (on the menu bar) "Packages" and then
-        "Install package from local zip file...".  Find the file
-        "negenes_0.98-7.zip" on your hard drive, and click "Open".
+         install.packages("negenes")
 
-     b. Unzip the "negenes_0.98-7.zip" file into the directory
-        $RHOME\library (where $RHOME is something like c:\R\rw1081).
-        Note that this should create a directory
-        $RHOME\library\negenes containing the R source code and the
-        compiled dll.
+     This will download the binary from CRAN and install it.
 
-        Start R and type "link.html.help()" to get the help files for
-        the negenes package added to the help indices.
+     Alternatively, you can download the "negenes_0.98-9.zip" (or the
+     equivalent).  Then start R and select (on the menu bar)
+     "Packages" and then "Install package from local zip file...".
+     Find the file "negenes_0.98-9.zip" on your hard drive, and click
+     "Open".
 
 
 INSTALLATION OF R AND R/NEGENES (MacOS version 10.2.x and above)
 
-  1. Download the file R-2.4.0.dmg and double-click it to mount a
-     "drive" with a name something like "R-2.4.0".  Follow the
+  1. Download the file R-2.12.1.dmg and double-click it to mount a
+     "drive" with a name something like "R-2.12.1".  Follow the
      instructions in the file "ReadMe.txt".
 
-  2. To install R/negenes:
+  2. To install R/qtl, the simplest approach is to start R and type
 
-     a. Download either the compiled version of R/negenes for Mac OSX
-        or the source code.
+         install.packages("negenes")
 
-     b. Start R by double-clicking "StartR" in your Applications
-        folder. 
+     This will download the binary from CRAN and install it.
 
-     c. From the menu bar, click Packages -> Install from local files
-        and then either "Binary package file" or "Source package file".
-        (To install from source, you may need additional compilers and
-        other tools installed.)  Then find the appropriate file on
-        your drive.
+     Alternatively, download the compiled version of R/qtl for 
+     Mac OS X, a file like "negenes_0.98-9.tgz".  Then start R and 
+     select (on the menu bar) "Packages & Data" -> "Package 
+     Installer".  Select "Local Binary Package" from the drop-down 
+     menu at the top of the window that comes up.  Click "Install"
+     at the bottom of the window.  Find the package on your drive 
+     and click "Open".  Finally, close the window.
 
 
 INSTALLATION OF R/NEGENES (Unix)

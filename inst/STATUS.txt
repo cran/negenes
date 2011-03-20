@@ -1,10 +1,14 @@
 
 Revision history for the R/negenes package
 ----------------------------------------------------------------------
-copyright (c) 2002,2004, Karl W Broman
+copyright (c) 2002-2011, Karl W Broman
 Licensed under the GNU General Public License version 2 (June, 1991)
 http://www.biostat.wisc.edu/~kbroman/software/negenes.html
 ----------------------------------------------------------------------
+
+Version 0.98-9, 3/20/2011:
+
+  Replaced datafile for Mtb80 with a compressed version.
 
 Version 0.98-8, 6/30/2009:
 
