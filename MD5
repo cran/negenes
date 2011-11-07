@@ -1,0 +1,13 @@
+626639f863fb74212f9d2c057ae61b95 *DESCRIPTION
+9d0c7f7c6c2054fbad4f0ebc548374c6 *NAMESPACE
+9cb9ad9c7151f485f7e77452bb56385a *R/negenes.R
+f682c988205746fb1cf12a9bd4159caa *data/Mtb80.RData
+542ac48342655a90a22d9a416b0254b4 *inst/CITATION
+2eeb75e49f1d644f301f21919dfafb63 *inst/LICENSE.txt
+616879394dfc715b2751467b5a21fe21 *inst/README.txt
+7d24573bf54ae9072dd17defe44c2fde *inst/STATUS.txt
+94c33dc0c8d16e55717069b6a7ccffcc *man/Mtb80.Rd
+fe109330cad06f7250ef9d2b8da6feda *man/negenes.Rd
+e9df20d939063e89183c48ec2790b6b0 *man/sim.mutants.Rd
+bab4c71933b455ba88b20b443f3a5333 *src/negenes.c
+f50c2c98040f652ccdd00aa808669e6f *src/negenes.h

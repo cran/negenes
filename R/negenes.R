@@ -172,7 +172,7 @@ function(n.sites, essential, n.sites2, n.mutants)
   temp <- c(essential[-1],essential[1])
   p <- c(n.sites*(1-essential), n.sites2*(1-essential)*(1-temp))
 
-  o <- table(factor(sample(1:(2*n.genes), n.mutants, repl=TRUE,
+  o <- table(factor(sample(1:(2*n.genes), n.mutants, replace=TRUE,
                            prob=p), levels=1:(2*n.genes)))
   names(o) <- NULL
 

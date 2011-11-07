@@ -6,6 +6,11 @@ Licensed under the GNU General Public License version 2 (June, 1991)
 http://www.biostat.wisc.edu/~kbroman/software/negenes.html
 ----------------------------------------------------------------------
 
+Version 0.99-2, 11/7/2011:
+
+  Added NAMESPACE.
+
+
 Version 0.98-9, 3/20/2011:
 
   Replaced datafile for Mtb80 with a compressed version.
