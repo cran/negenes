@@ -1,15 +1,14 @@
 Package: negenes
-Version: 1.0-1
-Date: 9 Mar 2012
-Title: Estimating the number of essential genes in a genome
+Version: 1.0-3
+Date: 2015-09-11
+Title: Estimating the Number of Essential Genes in a Genome
 Author: Karl W Broman <kbroman@biostat.wisc.edu>
 Maintainer: Karl W Broman <kbroman@biostat.wisc.edu>
-Description: Estimating the number of essential genes in a genome on
-        the basis of data from a random transposon mutagenesis
-        experiment, through the use of a Gibbs sampler.
+Description: Estimating the number of essential genes in a genome on the basis of data from a random transposon mutagenesis experiment, through the use of a Gibbs sampler.
 Depends: R (>= 2.10.1), stats
 License: GPL (>= 3)
-URL: http://www.biostat.wisc.edu/~kbroman/software/negenes.html
-Packaged: 2012-04-09 14:57:31 UTC; kbroman
+URL: https://github.com/kbroman/negenes
+NeedsCompilation: yes
+Packaged: 2015-09-11 12:27:20 UTC; kbroman
 Repository: CRAN
-Date/Publication: 2012-04-09 15:03:48
+Date/Publication: 2015-09-11 16:38:14
