@@ -4,9 +4,19 @@
 \alias{negenes}
 \title{Estimate the number of essential genes in a genome}
 \usage{
-negenes(n.sites, counts, n.sites2 = NULL, counts2 = NULL,
-  n.mcmc = 5000, skip = 49, burnin = 500, startp = 1,
-  trace = TRUE, calc.prob = FALSE, return.output = FALSE)
+negenes(
+  n.sites,
+  counts,
+  n.sites2 = NULL,
+  counts2 = NULL,
+  n.mcmc = 5000,
+  skip = 49,
+  burnin = 500,
+  startp = 1,
+  trace = TRUE,
+  calc.prob = FALSE,
+  return.output = FALSE
+)
 }
 \arguments{
 \item{n.sites}{A vector specifying the number of transposon insertion sites
@@ -101,11 +111,11 @@ Baltimore, MD.
 essential genes at subsaturation levels of mutagenesis:
 application to Mycobacterium, tuberculosis. Proc Natl Acad Sci USA
 100:7213-7218
-\href{https://doi.org/10.1073/pnas.1231432100}{doi:10.1073/pnas.1231432100}
+\doi{10.1073/pnas.1231432100}
 }
 }
 \seealso{
-\code{\link[negenes:sim.mutants]{negenes::sim.mutants()}}, \code{\link[negenes:Mtb80]{negenes::Mtb80()}}
+\code{\link[=sim.mutants]{sim.mutants()}}, \code{\link[=Mtb80]{Mtb80()}}
 }
 \author{
 Karl W Broman, \email{broman@wisc.edu}

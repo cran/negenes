@@ -1,8 +1,9 @@
 Package: negenes
-Version: 1.0-12
-Date: 2019-08-05
+Version: 1.2
+Date: 2025-05-11
 Title: Estimating the Number of Essential Genes in a Genome
-Author: Karl W Broman [aut, cre] (<https://orcid.org/0000-0002-4914-6671>)
+Author: Karl W Broman [aut, cre] (ORCID:
+    <https://orcid.org/0000-0002-4914-6671>)
 Maintainer: Karl W Broman <broman@wisc.edu>
 Authors@R: c(person("Karl W", "Broman", role=c("aut", "cre"),
              email="broman@wisc.edu", comment=c(ORCID = "0000-0002-4914-6671")))
@@ -17,8 +18,8 @@ License: GPL (>= 3)
 URL: https://github.com/kbroman/negenes
 BugReports: https://github.com/kbroman/negenes/issues
 Encoding: UTF-8
-RoxygenNote: 6.1.1
+RoxygenNote: 7.2.3
 NeedsCompilation: yes
-Packaged: 2019-08-05 15:44:25 UTC; kbroman
+Packaged: 2025-05-11 10:50:35 UTC; kbroman
 Repository: CRAN
-Date/Publication: 2019-08-05 21:50:09 UTC
+Date/Publication: 2025-05-11 11:20:02 UTC
